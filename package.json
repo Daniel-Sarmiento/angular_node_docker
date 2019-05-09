@@ -1,0 +1,15 @@
+{
+  "name": "tics_node_angular",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm install ./fronted && npm build ./fronted && node app.js"
+  },
+  "author": "Daniel",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}

@@ -1,0 +1,5 @@
+npm init 
+package nam: hello_docker_node
+app.js
+docker build -t tics_node_angular .
+docker run --name tics_node_angular -p 3000:3000 tics_node_angular
